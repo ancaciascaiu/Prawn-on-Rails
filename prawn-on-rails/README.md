@@ -1,24 +1,8 @@
-# README
+# This repo is for practising using the Prawn gem in a Rails app.
+Prawn comes with a series of methods to generate pdf files. 
+See the Prawn Manual: http://prawnpdf.org/manual.pdf
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Create a pdf file. Open credit_card.pdf to see result:
+bundle exec rake my_pdf:create_personal_file
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
